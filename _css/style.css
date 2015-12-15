@@ -1,0 +1,110 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #506a85;
+}
+.contacts{
+    background-color: #f5f7fa;
+    font-size: 12px;
+    line-height: 14px;
+    box-shadow: 0 1px 0px 0px #e6e9ed;
+}
+.contacts .contacts-info{
+    line-height: 40px;
+    vertical-align: middle;
+}
+.contacts .contact-mail{
+    margin-right: 20px;
+}
+.contacts .contact-mail:hover{
+    text-decoration: none;
+    color: #00bc9c;
+}
+.contacts .icon-mail::before{
+    margin-right: 5px;
+}
+.contacts .icon-mobile::before{
+    margin-right: 6px;
+}
+.social-list{
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.social-list li{
+    display: inline-block;
+}
+.social-link{
+    display: block;
+    padding: 13px 4px;
+}
+.wrap-facebook:hover{
+    background-color: #4668b3;
+}
+.wrap-gplus:hover{
+    background-color: #de5745;
+}
+.wrap-twitter:hover{
+    background-color: #2fbbed;
+}
+.wrap-pinterest:hover{
+    background-color: #d94348;
+}
+.wrap-behance:hover{
+    background-color: #3079ff;
+}
+.wrap-dribbble:hover{
+    background-color: #eb6397;
+}
+.social-link::before{
+    font-size: 12px;
+}
+.social-link:hover::before{
+    color: #ffffff;
+    text-decoration: none;
+}
+.logo-header, .search {
+    line-height: 112px;
+}
+.logo-header:hover img{
+    opacity: 0.6;
+}
+.navbar{
+    min-height: 112px;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 0;
+    display: table;
+}
+.navbar-nav{
+    margin-left: 36px;
+}
+.navbar-nav>li>a{
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 82px;
+    padding: 15px 19px;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #506a85;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: #506a85;
+}
+.search{
+    text-align: right;
+    padding-right: 30px;
+}
+.icon-search::before{
+    font-size: 12px;
+    line-height: 12px;
+}
+.icon-search:hover{
+    text-decoration: none;
+}
+.icon-search:hover::before{
+    color: #00bc9c;
+}
+
