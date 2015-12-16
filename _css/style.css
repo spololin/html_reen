@@ -110,17 +110,26 @@ body{
 .icon-search:hover::before{
     color: #00bc9c;
 }
-.caption-1{
-    top:30%;
-}
-.caption-style-78{
+.carousel-head{
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    font-size: 78px;
-    line-height: 88px;
     text-transform: uppercase;
     color: #ffffff;
     letter-spacing: 0.06em;
+}
+.carousel-head-size78{
+    font-size: 78px;
+    line-height: 88px;
+}
+.carousel-head-size73{
+    font-size: 73px;
+    line-height: 128px;
+}
+.carousel-head-size73 span{
+    padding: 0 20px;
+    display: inline-flex;
+    background-color: #506a85;
+    margin-bottom: 5px;
 }
 .caption-text{
     font-size: 24px;
@@ -129,6 +138,9 @@ body{
     letter-spacing: 0.02em;
     padding: 0;
     margin-bottom: 53px;
+}
+.caption-text-reverse{
+    color: #506a85;
 }
 .btn-carousel{
     color: #ffffff;
@@ -144,6 +156,12 @@ body{
 .btn-carousel:hover{
     background-color: #17a78b;
 }
+.position-rel{
+    position: relative;
+}
+.caption-1{
+    top:30%;
+}
 .caption-2{
     text-align: right;
     right: 0;
@@ -151,8 +169,19 @@ body{
     top: auto;
     bottom: 210px;
 }
-.position-rel{
-    position: relative;
+.caption-3{
+    text-align: left;
+    bottom: 200px;
+    padding-left: 0;
+    left: 0;
+    right: auto;
+}
+.caption-4{
+    text-align: right;
+    padding-right: 0;
+    left: auto;
+    right: 0;
+    bottom: 300px;
 }
 .caption-5{
     bottom: 420px;
